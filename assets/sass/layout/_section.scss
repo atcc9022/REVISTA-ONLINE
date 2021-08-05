@@ -1,0 +1,38 @@
+.newsletter{
+    background-color: $plomo;
+    height: 80px;
+    text-align: center;
+    padding: 50px;
+    margin-top: -7px;
+    
+}
+    .new__title {
+        font-family: $IBM-plex;
+        font-size: $medium;
+        margin-top: -6px;
+    }
+
+    p {
+        font-family: $IBM-plex;
+        font-size: $medium;
+    }
+
+    .group{
+        display: flex;
+        justify-content:center;
+
+        input {
+            border: 0px;
+        }
+    
+        .suscribete {
+            background-color: $salmon;
+            font-family: $IBM-plex;
+            font-size: $medium;
+            color: $white;
+            border-width: thin;
+        }
+    
+    }
+
+    

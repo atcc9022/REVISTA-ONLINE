@@ -1,0 +1,46 @@
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+        text-align: center;
+        padding: 20px 20px;
+        font-family: $IBM-plex;
+        font-size: $large;
+        font-weight: $bold;
+    }
+}
+
+.nav {
+    margin-right: 37px;
+
+    .nosotros {
+        margin-right: 10px;
+        font-family: $IBM-plex;
+        font-size: $medium;
+        text-decoration: none;
+    }
+    
+    .contacto {
+        margin-right: 8px;
+        font-family: $IBM-plex;
+        font-size: $medium;
+        text-decoration: none;
+    }
+
+    .input-menu {
+        border-radius: 30px;
+        border: 1px solid;
+    }
+} 
+
+@media (min-width: 320px) and (max-width: 520px) {
+    .nosotros {
+        display: none;
+    }
+}
+
+
+
+

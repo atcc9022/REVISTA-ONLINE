@@ -1,0 +1,89 @@
+.aside {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 5;
+
+}
+
+.cabecera-listado {
+    h1 {
+        font-family: $IBM-plex;
+        font-size: $medium;
+    }
+
+    p {
+        font-family: $IBM-plex;
+            font-size: $small;
+    }
+}
+
+.tags {
+    h1 {
+        font-family: $IBM-plex;
+        font-size: $medium;
+    }
+
+    .ul{
+        display: flex;
+        justify-content: space-between;
+
+        button {
+            font-family: 'IBM Plex Mono', monospace;
+            background-color: $bluedark;
+            color: $white;
+            font-size: $xmall;
+            border-width: thin;
+        }
+    }
+}
+
+.linea__button {
+    margin-top: 8px;
+}
+
+.noticias-destacadas {
+
+    h1 {
+        font-family: $IBM-plex;
+        font-size: $medium;
+    }
+
+    .item {
+        h4 {
+            font-size: $small;
+            font-family: $IBM-plex;
+        }
+
+        .aside_item {
+            width: 100%;
+            height: 100%;          
+        }
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 520px){
+   
+    .aside {
+        display: none;
+    }
+}
+
+@media (min-width: 521px) and (max-width: 768px) {
+    .aside {
+        display: none;
+    }
+}
+
+@media (min-width:769px) and (max-width: 992px) {
+    .aside {
+        display: none;
+    }
+}
+
+@media (min-width:993px) and (max-width: 1200px) {
+    .aside {
+        display: block;
+    }
+}
